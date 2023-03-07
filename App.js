@@ -26,13 +26,6 @@ app.listen(2001, console.log('welcome to the port:2001'))
 
 
 
-
-
-
-
-
-
-
 // mongoose.connect(uri, {
 //     useNewUrlParser: true,
 //     useUnifiedTopology: true

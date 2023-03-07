@@ -2,17 +2,18 @@ const mongoose = require('mongoose');
 const schema = mongoose.Schema;
 
 const patientAdmit = new schema({
-    // PatientId: String,
-    // patientName: String,
-    // Age: Number,
+    PatientId: String,
+    patientName: String,
+    Age: Number,
     Gender: String,
-    // BloodGroup: String,
-    // Address: String,
-    // Location: String,
-    // Contact: Number,
+    BloodGroup: String,
+    Address: String,
+    Location: String,
+    Contact: Number,
     AdmittedFor: String,
-    In: { type: Date },
-    Out: { type: Date },
+    Admission_Date: String,
+    Discharging_Date: String,
+    Admitted_By: String,
 
 },
     { collection: 'Admit' }
